@@ -12,7 +12,7 @@ class API {
     return this.#secure;
   }
 
-  updateURL(newURL) {
+  updateUrl(newURL) {
     this.url = newURL;
     this.#secure = newURL.startsWith('https');
   }
